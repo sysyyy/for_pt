@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+    .title{
+        @apply text-xl text-cyan-950 font-bold 
+    }
+    .highlight{
+        @apply bg-title
+    }
+
+    .btn{
+        @apply p-2 border rounded text-xl border-black
+    }
+
+    .btn.disabled{
+        @apply p-2 border rounded text-xl border-black bg-gray-200 text-gray-300
+    }
+}

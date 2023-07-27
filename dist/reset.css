@@ -1,0 +1,85 @@
+@charset "UTF-8";
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body, p,
+h1, h2, h3, h4, h5, h6,
+ul, ol, li,
+dl, dt, dd,
+table, th, td,
+form, fieldset, legend, input, textarea, button, select {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+input,
+textarea,
+select,
+button,
+table {
+  font-family: "나눔고딕", "NanumGothic", "NanumGothicWebFont", "Malgun Gothic", "맑은 고딕", "Dotum", "돋움", "Helvetica", "Apple SD Gothic Neo", "sans-serif";
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+body {
+  position: relative;
+  -webkit-text-size-adjust: none;
+  overflow-y: scroll;
+}
+
+body[data-mode=dimmed] {
+  overflow: hidden;
+}
+
+img,
+fieldset {
+  border: 0;
+}
+
+img {
+  vertical-align: top;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+em,
+address {
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+i {
+  font-style: normal;
+}
+
+a, abbr, address, article, aside, audio, b, blockquote, body, br, button, canvas, caption, cite, code, col, data, datalist, dd, del, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hr, html, i, iframe, img, input, ins, kbd, label, legend, li, main, mark, meter, nav, object, ol, output, p, pre, progress, q, s, samp, section, select, small, span, strong, sub, sup, table, td, textarea, th, time, u, ul, var, video {
+  box-sizing: border-box;
+}
+
+#gnb a, #gnb abbr, #gnb address, #gnb article, #gnb aside, #gnb audio, #gnb b, #gnb blockquote, #gnb body, #gnb br, #gnb button, #gnb canvas, #gnb caption, #gnb cite, #gnb code, #gnb col, #gnb data, #gnb datalist, #gnb dd, #gnb del, #gnb dfn, #gnb div, #gnb dl, #gnb dt, #gnb em, #gnb embed, #gnb fieldset, #gnb figcaption, #gnb figure, #gnb footer, #gnb form, #gnb h1, #gnb h2, #gnb h3, #gnb h4, #gnb h5, #gnb h6, #gnb header, #gnb hr, #gnb html, #gnb i, #gnb iframe, #gnb img, #gnb input, #gnb ins, #gnb kbd, #gnb label, #gnb legend, #gnb li, #gnb main, #gnb mark, #gnb meter, #gnb nav, #gnb object, #gnb ol, #gnb output, #gnb p, #gnb pre, #gnb progress, #gnb q, #gnb s, #gnb samp, #gnb section, #gnb select, #gnb small, #gnb span, #gnb strong, #gnb sub, #gnb sup, #gnb table, #gnb td, #gnb textarea, #gnb th, #gnb time, #gnb u, #gnb ul, #gnb var, #gnb video {
+  box-sizing: content-box;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
+  display: block;
+}
+
+strong {
+  font-weight: 400;
+}/*# sourceMappingURL=reset.css.map */
